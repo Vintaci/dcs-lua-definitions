@@ -1,9 +1,10 @@
 ---@meta
 
 ---@class (exact) trigger
+---@class trigger
 trigger = {}
 
----@enum trigger.smokePlumeColor
+---@class trigger.smokePlumeColor
 trigger.smokePlumeColor =  { ---@diagnostic disable-line: inject-field
     DISABLE = 0,
     GREEN = 1,
@@ -13,24 +14,24 @@ trigger.smokePlumeColor =  { ---@diagnostic disable-line: inject-field
     BLUE = 5
 }
 
----@enum trigger.smokeColor
+---@class trigger.smokeColor
 trigger.smokeColor =  { ---@diagnostic disable-line: inject-field
-    GREEN = 0,
-    RED = 1,
-    WHITE = 2,
-    ORANGE = 3,
-    BLUE = 4
+    Green = 0,
+    Red = 1,
+    White = 2,
+    Orange = 3,
+    Blue = 4
 }
 
----@enum trigger.flareColor
+---@class trigger.flareColor
 trigger.flareColor = { ---@diagnostic disable-line: inject-field
-    GREEN = 0,
-    RED = 1,
-    WHITE = 2,
-    YELLOW = 3
+    Green = 0,
+    Red = 1,
+    White = 2,
+    Yellow = 3
 }
 
----@enum trigger.shapeId
+---@class trigger.shapeId
 trigger.shapeId = { ---@diagnostic disable-line: inject-field
     LINE = 0,
     CIRCLE = 2,
@@ -41,7 +42,7 @@ trigger.shapeId = { ---@diagnostic disable-line: inject-field
     FREEFORM = 7
 }
 
----@enum trigger.lineType
+---@class trigger.lineType
 trigger.lineType = { ---@diagnostic disable-line: inject-field
     NO_LINE = 0,
     SOLID = 1,
