@@ -7,7 +7,11 @@
         "Unit%.getByName",
         "Group%.getByName",
         "trigger%.action",
-        "trigger%.misc"
+        "trigger%.misc",
+        "coalition%.",
+        "timer%.getTime",
+        "mist%.",
+        "DCS"
     ],
     "files": [
         "mist_.+%.lua",
